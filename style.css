@@ -1,0 +1,42 @@
+body {
+    background-color: #70acfc;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(143, 185, 223);
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    list-style: none;
+    color: rgb(7, 6, 6);
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+}
+
+body h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.nav-logo {
+    margin-left: 1rem;
+}
+.nav-menu {
+    margin-right: 1rem;
+}
